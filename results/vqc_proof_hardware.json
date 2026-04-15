@@ -1,0 +1,84 @@
+{
+  "experiment": "vqc_target_state_preparation",
+  "metric": "|11> probability",
+  "metric_threshold": 0.75,
+  "mode": "proof",
+  "generated_at_utc": "2026-04-15T23:32:48.495246+00:00",
+  "param_count": 8,
+  "objective_observable": {
+    "label": "P(|11>)",
+    "terms": [
+      {
+        "pauli": "II",
+        "coefficient": 0.25
+      },
+      {
+        "pauli": "ZI",
+        "coefficient": -0.25
+      },
+      {
+        "pauli": "IZ",
+        "coefficient": -0.25
+      },
+      {
+        "pauli": "ZZ",
+        "coefficient": 0.25
+      }
+    ]
+  },
+  "seed": 1337,
+  "proof_repetitions": 3,
+  "backend": "ibm_fez",
+  "params": [
+    2.517276958467488,
+    2.965706562632305,
+    1.3030029002375663,
+    0.26426342032229844,
+    5.494696384514541,
+    1.3272332273497782,
+    1.2172519345107167,
+    2.1471981383596357
+  ],
+  "instance": "open-instance",
+  "job_count": 3,
+  "run_count": 3,
+  "job_id": "d7g1vqkj168s73f1vcb0",
+  "p11": 0.9978265341568855,
+  "abs_p11": 0.9978265341568855,
+  "strict_success_rate": 1.0,
+  "success_count": 3,
+  "p11_std": 0.003073744872687211,
+  "p11_ci95": 0.003478269762145739,
+  "estimator_std_mean": 0.037639139836680685,
+  "transpiled_depth": 7,
+  "two_qubit_gate_count": 1,
+  "run_summaries": [
+    {
+      "run_index": 1,
+      "job_id": "d7g1vqkj168s73f1vcb0",
+      "p11": 1.0,
+      "std": 0.035777442154511306,
+      "strict_success": true
+    },
+    {
+      "run_index": 2,
+      "job_id": "d7g1vvdp8b1s73ark3t0",
+      "p11": 1.0,
+      "std": 0.04317322390082196,
+      "strict_success": true
+    },
+    {
+      "run_index": 3,
+      "job_id": "d7g203sj168s73f1vcm0",
+      "p11": 0.9934796024706565,
+      "std": 0.03396675345470879,
+      "strict_success": true
+    }
+  ],
+  "violates_metric": true,
+  "all_abs_p11_values": [
+    1.0,
+    1.0,
+    0.9934796024706565
+  ]
+}

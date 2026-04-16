@@ -61,6 +61,23 @@ The proof payload includes:
 Success is strict and objective-only:
 - `strict_success_rate = number_of_runs_with_P11>0.75 / run_count`
 
+## Latest proof (2026-04-16 UTC)
+
+The reproducible hardware witness was rerun after the Python/runtime refresh:
+
+- Backend: `ibm_fez` (`open-instance`)
+- Proof repetitions: `3`
+- Best trained parameters used: from `results/vqc_benchmark.json`
+- Hardware jobs:
+  - `d7g2pvdp8b1s73arl0m0`
+  - `d7g2q4dp8b1s73arl0sg`
+  - `d7g2q8ua0v2s738abdg0`
+- Metric: `|11>` probability
+- Mean `P(|11>) = 0.978671733318607`
+- `p11_ci95 = 0.0005117366127263978`
+- Strict successes: `3 / 3` (`strict_success_rate = 1.0`)
+- Metric-only pass criterion: `0.75`
+
 ## Why this is a stronger showcase than CHSH
 
 - It adds a **small variational training loop** (optimization + budgeting)
